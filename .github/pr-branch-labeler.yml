@@ -1,0 +1,5 @@
+pre-pv:
+ base: ["prepv_dev", "prepv_release"]
+ 
+ipu:
+  base: ["ipu-dev", "ipu-release"]
