@@ -20,7 +20,7 @@ jobs:
       - name: test
         run: |
          echo ${{github.event.pull_request.number}}
-         echo ${{github.event.pull_request.base}}
+         echo ${{github.base_ref}}
 
 
 
